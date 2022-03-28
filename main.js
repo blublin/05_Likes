@@ -5,9 +5,8 @@
 // }
 
 function likeButtonHandler(element) {
-    let debug = true;
     let idValue = element.id;
-    let tagLikes = document.querySelector("[name="+idValue)
+    let tagLikes = document.querySelector("h3."+idValue)
 
     let likeNum = parseInt(tagLikes.innerText);
     likeNum++;
