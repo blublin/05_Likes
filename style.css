@@ -113,8 +113,14 @@ Main Profile Right
     align-items: center;
 }
 
+.like-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .feed-likes {
     font-size: 20px;
+    margin-right: 7px;
 }
 
 .feed-like-button {
