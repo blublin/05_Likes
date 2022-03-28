@@ -1,0 +1,74 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 600px;
+}
+
+/* 
+------------------------
+NAV BAR
+------------------------
+*/
+
+#navbar {
+    height: 40px;
+    background-color: black;
+    color: white;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+#splash {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+------------------------
+MAIN BODY
+------------------------
+*/
+
+#main-body {
+    display: flex;
+}
+
+/*
+Main Profile Left
+*/
+
+#main-profile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#main-profile > img {
+    width: 100px;
+}
+
+#main-profile > * {
+    margin-bottom: 10px;
+}
+
+
+/*
+Main Profile Right
+*/
+
+#main-feed {
+    flex: 3;
+}
+
+class
