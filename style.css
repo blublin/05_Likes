@@ -46,20 +46,31 @@ MAIN BODY
 Main Profile Left
 */
 
+#main-left-col {
+    margin-right: 10px;
+}
+
 #main-profile {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: space-between; */
+    border: 3px solid rgb(56, 56, 56);
+    padding: 15px;
 }
 
 #main-profile > img {
-    width: 100px;
+    width: 80px;
+    border-radius: 50%;
 }
 
 #main-profile > * {
     margin-bottom: 10px;
+}
+
+#main-profile > h2 {
+    font-size: 25px;
 }
 
 
@@ -71,4 +82,58 @@ Main Profile Right
     flex: 3;
 }
 
-class
+/* Feed Card */
+
+.feed-card {
+    margin-bottom: 5px;
+    border: 3px solid rgb(56, 56, 56);
+    /* padding-bottom: 10px; */
+    padding: 15px;
+}
+
+.feed-top {
+    display: flex;
+    padding: 5px;
+}
+
+.feed-top-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.feed-user {
+    font-size: 25px;
+}
+
+.feed-top-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.feed-likes {
+    font-size: 20px;
+}
+
+.feed-like-button {
+    /* width: 100px; */
+    /* height: 40px; */
+    padding: 3px 15px;
+    background-color:rgb(233, 222, 64);
+    border-width: 3px;
+    border-color: black;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+    /* border-radius: 50%; */
+}
+
+.feed-bottom {
+    padding: 5px 15px;
+}
+
+.feed-body {
+    margin: auto;
+    font-size: 20px;
+}
